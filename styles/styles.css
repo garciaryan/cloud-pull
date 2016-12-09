@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive');
+
+/*UNIVERSAL*/
+
+html, body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: #656663;
+}
+
+ul {
+    list-style-type: none;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+a:visited {
+    
+}
+
+a:hover {
+    color: #000;
+}
+
+/*UNIVERSAL ENDS*/
+
+/*HEADER*/
+
+header {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+span>a {
+    font-family: 'Cedarville Cursive', cursive;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    padding: 8px;
+    
+}
+
+#nav-tabs {
+    float: right;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 20px;
+}
+
+/*HEADER ENDS*/
+
+/*HERO*/
+
+h1 {
+    text-align: center;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 70px;
+}
+
+/*HERO ENDS*/
+
+/*SIDEBAR*/
+
+aside {
+    float: right;
+}
+
+h3 {
+    padding-right: 40px;
+}
