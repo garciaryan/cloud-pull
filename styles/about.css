@@ -1,0 +1,57 @@
+/*UNIVERSALS*/
+
+body {
+    background-image: none;
+}
+
+h2 {
+    font-family: 'Cedarville Cursive', cursive;
+    position: relative;
+    bottom: 15px;
+    padding-left: 5px;
+}
+
+/*UNIVERSALS*/
+
+/*COLUMNS*/
+#video {
+    position: relative;
+    top: 85px;
+    padding-left: 5px;
+    padding-right: 10px;
+    width: 75%;
+}
+
+.column1 {
+    width: 33%;
+    float: left;
+    border-right: 5px solid #000;
+}
+
+.column2 {
+    float: left;
+    /*padding-left: 5px;*/
+    width: 33%;
+    
+}
+
+.column3 {
+    float: right;
+    padding-left: 3px;
+    width: 33%;
+    height: 350px;
+    border-left: 5px solid #000;
+}
+
+.column3>h2 {
+    position: relative;
+    
+}
+
+.img-circle {
+    position: relative;
+    top: 100px;
+    padding-left: 90px;
+    border-radius: 50%;
+}
+/*COLUMNS*/

@@ -1,0 +1,29 @@
+
+
+#content {
+    position: relative;
+}
+
+#wrap {
+    position: relative;
+    left: 365px;
+    color: #fff;
+}
+
+header>#header>.info {
+    color: #fff;
+}
+
+#main-page {
+    position: relative;
+    background-image: url('../img/scenery.jpg');
+    background-position: center;
+    background-size: 100%;
+    top: 138px;
+    
+}
+
+h1 {
+    position: relative;
+    bottom: 138px;
+}
